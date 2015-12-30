@@ -54,7 +54,7 @@ int chkspecial(int, int, int);   /* Checks if the Date is a special date */
 void printspecial(int);          /* Prints the name of the special date */
 void wait (void);                /* Waits for final user input to quit program */
 
-main()
+int main(void)
 {
 	int year, month, day, weekdate,count;
    int monthdays,   /* number of days int the month */
