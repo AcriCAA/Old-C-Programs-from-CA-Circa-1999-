@@ -16,7 +16,7 @@ void insert(int a[], int *, int, int);
 
 
 /**********************************main**************************************/
-void main(void)
+int main(void)
 {
 	int a[20] = {14, 17, 23, 26, 33, 38, 39, 41, 52, 56},
 		NumEls = 10,	/* number of elements in array */
